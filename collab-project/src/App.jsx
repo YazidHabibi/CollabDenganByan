@@ -1,16 +1,9 @@
 export default function App() {
   return (
-    <>
-        <h1 className="text-2xl text-center">
-          ini halaman 
-        </h1>
-      <div className="border-2 border-black w-22 justify-center items-center">
-        <div className="flex  "> 
-          <h2>Ini project react nama-antum</h2>
-          <img src="hiu.jpg" alt="" />
-        </div>
-      </div>
-    </>
+    <div className="flex flex-col items-center mt-3">
+
+      <h1 className="text-3xl font-bold my-5">Ini project react nama-nama antum 👍</h1>
+      <img src="hiu.jpg" alt="" className="border-2 border-blue-500 rounded w-1/4"/>
+    </div>
   );
-  
 }
